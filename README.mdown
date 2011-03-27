@@ -1,0 +1,16 @@
+##Dropbox SDK for Android (inofficial)
+
+I created this project, because I think the original Dropbox SDK wasn't really created the Android way. I divided it into two Eclips projects:
+
+ * DropboxSDK: The Android Library Project, which contains the helper classes and all Java libraries needed.
+
+ * DropboxSample: A sample Eclipse project which shows how to use the SDK.
+
+To use the SDK in your own project, you need to take these steps:
+1. Pull the repository
+2. File > Import... > Existing Projects into Workspace > Select the DropboxSDK folder
+3. Add the SDK as a library to your own project
+4. Add the SDK's .jar files to your project's build path
+5. Make sure that your app has permission to access the internet!
+
+The original SDK can be found here: https://www.dropbox.com/developers/releases
